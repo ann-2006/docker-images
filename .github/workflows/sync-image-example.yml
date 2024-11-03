@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://registry.cn-guangzhou.aliyuncs.com/gorgor1065/ngnix:latest
+         skopeo copy docker://docker.io/gitlab/gitlab-ce:10.6.2-ce.0 docker://registry.cn-hangzhou.aliyuncs.com/anle_repo/gitlab/gitlab-ce:10.6.2-ce.0
          
          
          
